@@ -5,20 +5,20 @@ def footer_home():
     
     st.markdown(f"""
         <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; items-align:center">
-        <p style="font-weight:bold; color:black;"> Created with ❤️ and ☕ by </p>  
-        <p>Vineet Waman</p>
+        <div style="color:white !important"><p style="font-weight:bold; color: #E0E7FF !important; font-size:18px">Created with ❤️ and ☕ by </p></div>
+        
+        <h5 style="font-weight:bold; color:white !important; font-size:18px;margin-top:0px"><i>Vineet Waman</i></h5>  
         </div>
                 
                 """, unsafe_allow_html=True)
 
 
 def footer_dashboard():
-    #logo_url = "https://i.ibb.co/4r5X1FY/apnacollege.png"
-    
-    st.markdown(f"""
+     st.markdown(f"""
         <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; items-align:center">
-        <p style="font-weight:bold; color:black;"> Created with ❤️ and ☕ by </p>  
-        <p>Vineet Waman</p>
+        <p style="font-weight:bold; color:#E0E7FF;; font-size:18px">Created with ❤️ and ☕ by </p>  
+        
+        <h6 style="font-weight:bold; color:black; font-size:25px font-size:18px;margin-top:0px"><i>Vineet Waman</i></h6>  
         </div>
                 
                 """, unsafe_allow_html=True)
